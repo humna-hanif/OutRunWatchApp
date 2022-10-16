@@ -9,5 +9,5 @@ https://github.com/timfraedrich/OutRun
 This source code is used as a reference to create a WatchOS version of the application. It includes the main feature of recording your outdoor fitness
 of the day alongside some additional features unique to the WatchOS only.
 
-
+This code can be contributed to by cloning the repo and opening the project on the Xcode IDE. No additional extensions are necessary.  
 
