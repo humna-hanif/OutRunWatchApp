@@ -9,8 +9,10 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
+
         
         // Reader for Getting Frame
+        
         GeometryReader{reader in
             
             let rect = reader.frame(in: .global)
@@ -19,9 +21,23 @@ struct Home: View {
                 HStack(spacing: 25) {
                     //Buttons
                     
-                    NavButton(image: "plus", title: "New Workout", rect: rect, color: Color("orange"))
+                    NavigationLink(
+                        destination: NewWorkout(),
+                        label: {
+                            NavButton(image: "plus", title: "New Workout", rect: rect, color: Color("orange"))
+                        })
+                    .buttonStyle(PlainButtonStyle())
                     
-                    NavButton(image: "minus", title: "My Goals", rect: rect, color: Color("orange"))
+                    NavButton(image: "pencil", title: "My Goals", rect: rect, color: Color("orange"))
+                }
+                .frame(width: rect.width, alignment: .center)
+                
+                HStack(spacing: 25) {
+                    //Buttons
+                    
+                    NavButton(image: "doc.plaintext", title: "Water Tracker", rect: rect, color: Color("orange"))
+                    
+                    NavButton(image: "gear", title: "Settings", rect: rect, color: Color("orange"))
                 }
                 .frame(width: rect.width, alignment: .center)
             }

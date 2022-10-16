@@ -13,6 +13,9 @@
 		FD03DC3E28FB609B00B2F2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03DC3D28FB609B00B2F2FC /* Assets.xcassets */; };
 		FD03DC4128FB609B00B2F2FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03DC4028FB609B00B2F2FC /* Preview Assets.xcassets */; };
 		FD03DC4F28FB61D900B2F2FC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03DC4E28FB61D900B2F2FC /* Home.swift */; };
+		FD90DAC928FC68B500C6547B /* WaterTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90DAC828FC68B400C6547B /* WaterTracker.swift */; };
+		FD90DACB28FC68C700C6547B /* NewWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90DACA28FC68C700C6547B /* NewWorkout.swift */; };
+		FD90DACD28FC68D900C6547B /* MyGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90DACC28FC68D900C6547B /* MyGoals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FD03DC3D28FB609B00B2F2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD03DC4028FB609B00B2F2FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD03DC4E28FB61D900B2F2FC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FD90DAC828FC68B400C6547B /* WaterTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTracker.swift; sourceTree = "<group>"; };
+		FD90DACA28FC68C700C6547B /* NewWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkout.swift; sourceTree = "<group>"; };
+		FD90DACC28FC68D900C6547B /* MyGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				FD03DC4E28FB61D900B2F2FC /* Home.swift */,
+				FD90DAC828FC68B400C6547B /* WaterTracker.swift */,
+				FD90DACA28FC68C700C6547B /* NewWorkout.swift */,
+				FD90DACC28FC68D900C6547B /* MyGoals.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD90DACB28FC68C700C6547B /* NewWorkout.swift in Sources */,
+				FD90DAC928FC68B500C6547B /* WaterTracker.swift in Sources */,
+				FD90DACD28FC68D900C6547B /* MyGoals.swift in Sources */,
 				FD03DC3C28FB609500B2F2FC /* ContentView.swift in Sources */,
 				FD03DC4F28FB61D900B2F2FC /* Home.swift in Sources */,
 				FD03DC3A28FB609500B2F2FC /* OutRunWatchApp.swift in Sources */,
