@@ -9,12 +9,31 @@ import SwiftUI
 
 struct WaterTracker: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        
+        GeometryReader{reader in
+            
+            let rect = reader.frame(in: .global)
+            
+            VStack(spacing: 15){
+                HStack(spacing: 25) {
+                    //Buttons
+                    
+                    NavButton(image: "minus", title: "", rect: rect, color: Color("orange"))
+                    
+                    Text("0")
+                    
+                    NavButton(image: "plus", title: "", rect: rect, color: Color("orange"))
+                    
+                }
+            }
+        }
     }
 }
-
-struct WaterTracker_Previews: PreviewProvider {
-    static var previews: some View {
-        WaterTracker()
+    
+    struct WaterTracker_Previews: PreviewProvider {
+        static var previews: some View {
+            WaterTracker()
+        }
     }
-}

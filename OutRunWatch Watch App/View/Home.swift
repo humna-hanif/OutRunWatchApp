@@ -37,7 +37,7 @@ struct Home: View {
                     
                     NavButton(image: "doc.plaintext", title: "Water Tracker", rect: rect, color: Color("orange"))
                     
-                    NavButton(image: "gear", title: "Settings", rect: rect, color: Color("orange"))
+                    NavButton(image: "clock", title: "Timer", rect: rect, color: Color("orange"))
                 }
                 .frame(width: rect.width, alignment: .center)
             }
