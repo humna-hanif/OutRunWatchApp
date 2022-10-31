@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21225" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="21040"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="fRD-1l-P1O">
+            <objects>
+                <controller id="IGi-cB-aGO" customClass="Home" customModule="OutRunWatch_Watch_App" propertyAccessControl="all"/>
+            </objects>
+            <point key="canvasLocation" x="94" y="-2"/>
+        </scene>
+    </scenes>
+</document>
