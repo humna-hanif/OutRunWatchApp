@@ -9,37 +9,51 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-
-        
-        // Reader for Getting Frame
-        
-        GeometryReader{reader in
+        NavigationView {
             
-            let rect = reader.frame(in: .global)
+            // Reader for Getting Frame
             
-            VStack(spacing: 15){
-                HStack(spacing: 25) {
-                    //Buttons
-                    
-                    NavigationLink(
-                        destination: NewWorkout(),
-                        label: {
-                            NavButton(image: "plus", title: "New Workout", rect: rect, color: Color("orange"))
-                        })
-                    .buttonStyle(PlainButtonStyle())
-                    
-                    NavButton(image: "pencil", title: "My Goals", rect: rect, color: Color("orange"))
-                }
-                .frame(width: rect.width, alignment: .center)
+            GeometryReader{reader in
                 
-                HStack(spacing: 25) {
-                    //Buttons
+                let rect = reader.frame(in: .global)
+                
+                VStack(spacing: 15){
+                    HStack(spacing: 25) {
+                        //Buttons
+                        
+                        NavigationLink(
+                            destination: NewWorkout(),
+                            label: {
+                                NavButton(image: "plus", title: "New Workout", rect: rect, color: Color("orange"))
+                            })
+                        .buttonStyle(PlainButtonStyle())
+                        
+                        NavigationLink(
+                            destination: MyGoals(),
+                            label:{
+                                NavButton(image: "pencil", title: "My Goals", rect: rect, color: Color("orange"))
+                            })
+                        .buttonStyle(PlainButtonStyle())
+                            }
+
                     
-                    NavButton(image: "doc.plaintext", title: "Water Tracker", rect: rect, color: Color("orange"))
-                    
-                    NavButton(image: "clock", title: "Timer", rect: rect, color: Color("orange"))
+                    HStack(spacing: 25) {
+                        //Buttons
+                        
+                        NavigationLink(
+                            destination: WaterTracker(),
+                            label: {
+                                NavButton(image: "doc.plaintext", title: "Water Tracker", rect: rect, color: Color("orange"))
+                            }) .buttonStyle(PlainButtonStyle())
+
+                        NavigationLink(
+                            destination: Timer(),
+                            label: {
+                                NavButton(image: "clock", title: "Timer", rect: rect, color: Color("orange"))
+                            }) .buttonStyle(PlainButtonStyle())
+                    }
+                    .frame(width: rect.width, alignment: .center)
                 }
-                .frame(width: rect.width, alignment: .center)
             }
         }
     }
