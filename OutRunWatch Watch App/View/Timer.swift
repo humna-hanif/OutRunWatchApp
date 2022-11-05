@@ -31,10 +31,8 @@ struct Timer: View {
     }
 
 struct SecondView: View {
-    
-    @Binding var secondScreenShown: Bool
-    @State var timerVal = 1
-    
+    @Binding var secondScreenShown:Bool
+    @State var timerVal:Int
     var body: some View {
         VStack{
             
@@ -43,14 +41,12 @@ struct SecondView: View {
                     .font(.system(size: 14))
                 Text("\(timerVal)")
                     .font(.system(size: 40))
-                    .onAppear() {
-                    /*    Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+                    .onAppear(){
+                        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
                             if self.timerVal > 0 {
                                 self.timerVal -= 1
-                                
                             }
                         }
-                     */
                 }
                 Text("seconds")
                     .font(.system(size: 14))
