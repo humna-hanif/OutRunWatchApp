@@ -8,29 +8,21 @@
 import SwiftUI
 
 struct WaterTracker: View {
-    var body: some View {
+    @State private var amount = 0
         
-        
-        
-        GeometryReader{reader in
-            
-            let rect = reader.frame(in: .global)
-            
-            VStack(spacing: 15){
-                HStack(spacing: 25) {
-                    //Buttons
-                    
-                    NavButton(image: "minus", title: "", rect: rect, color: Color("orange"))
-                    
-                    Text("0")
-                    
-                    NavButton(image: "plus", title: "", rect: rect, color: Color("orange"))
-                    
-                }
+        var body: some View {
+            VStack {
+                Text("Total Cups: \(amount)")
+                    .font(.title2)
+                    .bold()
+                Stepper("", value: $amount, in: 0...200)
             }
+            .labelsHidden()
+            .padding()
         }
-    }
-}
+        }
+       
+
     
     struct WaterTracker_Previews: PreviewProvider {
         static var previews: some View {

@@ -9,7 +9,42 @@ import SwiftUI
 
 struct NewWorkout: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            
+            // Reader for Getting Frame
+            
+            GeometryReader{reader in
+                
+                let rect = reader.frame(in: .global)
+                
+                VStack(spacing: 15){
+                    HStack(spacing: 25) {
+                        //Buttons
+                        
+                        NavigationLink(
+                            destination: StopWatch(),
+                            label: {
+                                NavButton(image: "circle", title: "Walk", rect: rect, color: Color("orange"))
+                            })
+                        .buttonStyle(PlainButtonStyle())
+                        
+                            }
+
+                    
+                    HStack(spacing: 25) {
+                        //Buttons
+                        
+                        NavigationLink(
+                            destination: StopWatch(),
+                            label: {
+                                NavButton(image: "circle", title: "Run", rect: rect, color: Color("orange"))
+                            }) .buttonStyle(PlainButtonStyle())
+
+                    }
+                    .frame(width: rect.width, alignment: .center)
+                }
+            }
+        }
     }
 }
 
