@@ -47,7 +47,7 @@ struct Home: View {
                             }) .buttonStyle(PlainButtonStyle())
 
                         NavigationLink(
-                            destination: Timer(),
+                            destination: TimerSelectionView(),
                             label: {
                                 NavButton(image: "clock", title: "Timer", rect: rect, color: Color("orange"))
                             }) .buttonStyle(PlainButtonStyle())

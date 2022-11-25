@@ -14,7 +14,12 @@
 		FD03DC4128FB609B00B2F2FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03DC4028FB609B00B2F2FC /* Preview Assets.xcassets */; };
 		FD03DC4F28FB61D900B2F2FC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03DC4E28FB61D900B2F2FC /* Home.swift */; };
 		FD081DCF2921CC060088F286 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD081DCE2921CC060088F286 /* StopWatch.swift */; };
-		FD77D7442904E0D400A1BFB7 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77D7432904E0D400A1BFB7 /* Timer.swift */; };
+		FD8C774D29307BCE005DD2A7 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C774C29307BCE005DD2A7 /* TimerCell.swift */; };
+		FD8C774F29307CBC005DD2A7 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C774E29307CBC005DD2A7 /* TickView.swift */; };
+		FD8C775129307DA5005DD2A7 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C775029307DA5005DD2A7 /* TimerModel.swift */; };
+		FD8C77552930827E005DD2A7 /* TimerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C77542930827E005DD2A7 /* TimerSelectionView.swift */; };
+		FD8C775729308399005DD2A7 /* View+Glow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C775629308399005DD2A7 /* View+Glow.swift */; };
+		FD8C7759293083DA005DD2A7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C7758293083DA005DD2A7 /* TimerView.swift */; };
 		FD90DAC928FC68B500C6547B /* WaterTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90DAC828FC68B400C6547B /* WaterTracker.swift */; };
 		FD90DACB28FC68C700C6547B /* NewWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90DACA28FC68C700C6547B /* NewWorkout.swift */; };
 		FD90DACD28FC68D900C6547B /* MyGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90DACC28FC68D900C6547B /* MyGoals.swift */; };
@@ -53,7 +58,12 @@
 		FD03DC4028FB609B00B2F2FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD03DC4E28FB61D900B2F2FC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FD081DCE2921CC060088F286 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
-		FD77D7432904E0D400A1BFB7 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		FD8C774C29307BCE005DD2A7 /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		FD8C774E29307CBC005DD2A7 /* TickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
+		FD8C775029307DA5005DD2A7 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		FD8C77542930827E005DD2A7 /* TimerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSelectionView.swift; sourceTree = "<group>"; };
+		FD8C775629308399005DD2A7 /* View+Glow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Glow.swift"; sourceTree = "<group>"; };
+		FD8C7758293083DA005DD2A7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		FD90DAC828FC68B400C6547B /* WaterTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTracker.swift; sourceTree = "<group>"; tabWidth = 12; usesTabs = 0; };
 		FD90DACA28FC68C700C6547B /* NewWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkout.swift; sourceTree = "<group>"; };
 		FD90DACC28FC68D900C6547B /* MyGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoals.swift; sourceTree = "<group>"; };
@@ -114,8 +124,13 @@
 				FD90DAC828FC68B400C6547B /* WaterTracker.swift */,
 				FD90DACA28FC68C700C6547B /* NewWorkout.swift */,
 				FD90DACC28FC68D900C6547B /* MyGoals.swift */,
-				FD77D7432904E0D400A1BFB7 /* Timer.swift */,
 				FD081DCE2921CC060088F286 /* StopWatch.swift */,
+				FD8C774C29307BCE005DD2A7 /* TimerCell.swift */,
+				FD8C77542930827E005DD2A7 /* TimerSelectionView.swift */,
+				FD8C775629308399005DD2A7 /* View+Glow.swift */,
+				FD8C7758293083DA005DD2A7 /* TimerView.swift */,
+				FD8C774E29307CBC005DD2A7 /* TickView.swift */,
+				FD8C775029307DA5005DD2A7 /* TimerModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,12 +233,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8C7759293083DA005DD2A7 /* TimerView.swift in Sources */,
+				FD8C775129307DA5005DD2A7 /* TimerModel.swift in Sources */,
 				FD90DACB28FC68C700C6547B /* NewWorkout.swift in Sources */,
+				FD8C775729308399005DD2A7 /* View+Glow.swift in Sources */,
 				FD90DAC928FC68B500C6547B /* WaterTracker.swift in Sources */,
-				FD77D7442904E0D400A1BFB7 /* Timer.swift in Sources */,
+				FD8C774F29307CBC005DD2A7 /* TickView.swift in Sources */,
 				FD90DACD28FC68D900C6547B /* MyGoals.swift in Sources */,
 				FD03DC3C28FB609500B2F2FC /* ContentView.swift in Sources */,
+				FD8C774D29307BCE005DD2A7 /* TimerCell.swift in Sources */,
 				FD03DC4F28FB61D900B2F2FC /* Home.swift in Sources */,
+				FD8C77552930827E005DD2A7 /* TimerSelectionView.swift in Sources */,
 				FD03DC3A28FB609500B2F2FC /* OutRunWatchApp.swift in Sources */,
 				FD081DCF2921CC060088F286 /* StopWatch.swift in Sources */,
 			);
