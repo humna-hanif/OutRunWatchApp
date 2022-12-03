@@ -13,7 +13,6 @@
 		FD03DC3E28FB609B00B2F2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03DC3D28FB609B00B2F2FC /* Assets.xcassets */; };
 		FD03DC4128FB609B00B2F2FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03DC4028FB609B00B2F2FC /* Preview Assets.xcassets */; };
 		FD03DC4F28FB61D900B2F2FC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03DC4E28FB61D900B2F2FC /* Home.swift */; };
-		FD081DCF2921CC060088F286 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD081DCE2921CC060088F286 /* StopWatch.swift */; };
 		FD8C774D29307BCE005DD2A7 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C774C29307BCE005DD2A7 /* TimerCell.swift */; };
 		FD8C774F29307CBC005DD2A7 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C774E29307CBC005DD2A7 /* TickView.swift */; };
 		FD8C775129307DA5005DD2A7 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C775029307DA5005DD2A7 /* TimerModel.swift */; };
@@ -57,7 +56,6 @@
 		FD03DC3D28FB609B00B2F2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD03DC4028FB609B00B2F2FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD03DC4E28FB61D900B2F2FC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		FD081DCE2921CC060088F286 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		FD8C774C29307BCE005DD2A7 /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
 		FD8C774E29307CBC005DD2A7 /* TickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
 		FD8C775029307DA5005DD2A7 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				FD90DAC828FC68B400C6547B /* WaterTracker.swift */,
 				FD90DACA28FC68C700C6547B /* NewWorkout.swift */,
 				FD90DACC28FC68D900C6547B /* MyGoals.swift */,
-				FD081DCE2921CC060088F286 /* StopWatch.swift */,
 				FD8C774C29307BCE005DD2A7 /* TimerCell.swift */,
 				FD8C77542930827E005DD2A7 /* TimerSelectionView.swift */,
 				FD8C775629308399005DD2A7 /* View+Glow.swift */,
@@ -245,7 +242,6 @@
 				FD03DC4F28FB61D900B2F2FC /* Home.swift in Sources */,
 				FD8C77552930827E005DD2A7 /* TimerSelectionView.swift in Sources */,
 				FD03DC3A28FB609500B2F2FC /* OutRunWatchApp.swift in Sources */,
-				FD081DCF2921CC060088F286 /* StopWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OutRunWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = R98C4J2FV4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = FitLife;
@@ -406,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OutRunWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = R98C4J2FV4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = FitLife;
@@ -434,6 +432,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R98C4J2FV4;
 				INFOPLIST_KEY_CFBundleDisplayName = FitLife;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithumna.OutRunWatch;
@@ -449,6 +448,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R98C4J2FV4;
 				INFOPLIST_KEY_CFBundleDisplayName = FitLife;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithumna.OutRunWatch;

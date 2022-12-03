@@ -15,7 +15,7 @@ struct TimerView: View {
     @State private var counter: CGFloat
     @Environment(\.presentationMode) var presentationMode
     
-    let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     private var formatter: DateComponentsFormatter = {
         let formatter = DateComponentsFormatter()

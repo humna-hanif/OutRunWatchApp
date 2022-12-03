@@ -31,7 +31,7 @@ struct Home: View {
                         NavigationLink(
                             destination: MyGoals(),
                             label:{
-                                NavButton(image: "pencil", title: "My Goals", rect: rect, color: Color("orange"))
+                                NavButton(image: "pencil", title: "Workout Ideas", rect: rect, color: Color("orange"))
                             })
                         .buttonStyle(PlainButtonStyle())
                             }

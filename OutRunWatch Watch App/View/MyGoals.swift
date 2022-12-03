@@ -12,12 +12,17 @@ struct MyGoals: View {
 
     var body: some View {
         VStack{
-            Text("Walk")
-            ProgressView(value: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/)
-            Text("Run")
-            ProgressView(value: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/)
-            Text("Cycle")
-            ProgressView(value: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/)
+            List {
+                Text("Walk 1.5-2 Miles")
+                Text("3 x 10-Min Walks, Easy Pace")
+                Text("30-Min Walk, Brisk")
+                Text("30-Min Walk, Easy Pace + Strength Workout")
+                Text("2 x 30-Min Walks, Easy Pace")
+                Text("60-Min Walk, Brisk")
+                Text("Run for 30 minutes")
+                
+                
+            }
         }
 
     }

@@ -22,7 +22,7 @@ struct NewWorkout: View {
                         //Buttons
                         
                         NavigationLink(
-                            destination: StopWatch(),
+                            destination: TimerSelectionView(),
                             label: {
                                 NavButton(image: "circle", title: "Walk", rect: rect, color: Color("orange"))
                             })
@@ -35,7 +35,7 @@ struct NewWorkout: View {
                         //Buttons
                         
                         NavigationLink(
-                            destination: StopWatch(),
+                            destination: TimerSelectionView(),
                             label: {
                                 NavButton(image: "circle", title: "Run", rect: rect, color: Color("orange"))
                             }) .buttonStyle(PlainButtonStyle())
