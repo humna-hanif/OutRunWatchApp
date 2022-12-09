@@ -1,13 +1,27 @@
 # OutRun Watch App
 
-OutRun is an existing iOS application. This application is an Outdoor Fitness Tracker that records any type of physical movement which includes 
-walking, running, cycling, and skating.
+#Overview
+FitLife is a WatchOS application. This application is an Outdoor Fitness Tracker that records any type of physical movement which includes 
+walking and running.
 
-This repo uses the open source code of the OutRun Application which can be found through the link below:
-https://github.com/timfraedrich/OutRun
+#Features
+Features include:
+- Timer: Allows user to start a timer up to 2 hours
+- Water Intake Tracker: Allows user to track how many cups of water they drink in a day
+- Workout Ideas: List of walking/running workout ideas for the day
 
-This source code is used as a reference to create a WatchOS version of the application. It includes the main feature of recording your outdoor fitness
-of the day alongside some additional features unique to the WatchOS only.
+#Tech Stack
+- Xcode: IDE used to create Apple WatchOS application
+- Swift: Programming languge to create application
+- GitHub: Platform used for version control 
 
-This code can be contributed to by cloning the repo and opening the project on the Xcode IDE. No additional extensions are necessary.  
+#How to Use Project (User)
+1. Run application on Apple Watch
+2. 
+
+#How to Use Project (Developer)
+1. Download Xcode IDE (comes with Swift so no need to install Swift)
+    - Link to download Xcode: https://developer.apple.com/xcode/
+2. Clone this repo 
+3. Open up project on Xcode
 
