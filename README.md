@@ -1,8 +1,7 @@
 # OutRun Watch App
 
 ## Overview
-FitLife is a WatchOS application. This application is an Outdoor Fitness Tracker that records any type of physical movement which includes 
-walking and running.
+FitLife is a WatchOS application. This application is an Outdoor Fitness Tracker that allows the user to record how much time they have walked or ran in a day.
 
 ## Features
 Features include:
